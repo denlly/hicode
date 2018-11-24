@@ -1,0 +1,9 @@
+# 去掉
+*.temp.*
+
+
+lib/
+
+dist/
+
+node_modules/

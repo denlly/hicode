@@ -1,0 +1,25 @@
+{
+  "name": "hicode",
+  "version": "0.0.1",
+  "description": "A Generator code with template.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Denlly <fan91163@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "Generator",
+    "Typescript"
+  ],
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.1.6"
+  }
+}
