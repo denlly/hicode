@@ -1,6 +1,7 @@
 # 去掉
 *.temp.*
 
+coverage/
 
 dist/
 
