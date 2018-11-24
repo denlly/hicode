@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha --reporter spec",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
   "author": "Denlly <fan91163@gmail.com>",
   "license": "ISC",
@@ -20,6 +21,8 @@
   "devDependencies": {
     "@types/pluralize": "0.0.29",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "typescript": "^3.1.6"
   }
